@@ -13,6 +13,13 @@
 
 body {
     font-family: "Inter", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
 }
 
 dd {
@@ -22,6 +29,10 @@ dd {
 
 p {
     font-size: 0.938rem; /* 15px */
+}
+
+.stats-preview-card {
+    width: 327px;
 }
 
 .attribution {
