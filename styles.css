@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     min-height: 100vh;
 }
 
@@ -37,7 +37,6 @@ p {
 
 .attribution {
     font-size: 0.6875rem;
-    text-align: center;
 }
 
 .attribution a {
