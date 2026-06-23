@@ -133,7 +133,7 @@ p {
 
     p {
         font-size: 15px;
-        margin: 1.6em 1.967em 4em 0; /* 24px 29.5px 60px*/
+        margin: 1.6em 1.967em 4em 0; /* 24px 29.5px 60px */
     }
 
     .stats-preview-card {
@@ -142,6 +142,6 @@ p {
     }
 
     .stats-preview-card_content {
-        margin: 4em 5em; /* 64px 80px*/
+        margin: 4em 5em; /* 64px 80px */
     }
 }
