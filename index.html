@@ -16,22 +16,39 @@
 <body>
   <main>
     <section class="stats-preview-card">
-      <div class="stats-preview-card-header">
-        <img class="image-header">
+      <div class="stats-preview-card_image">
+          <picture>
+            <source
+              media="(max-width: 375px)"
+              srcset="./images/image-header-mobile.jpg"
+            />
+            <img 
+              class="stats-preview-card_img"
+              src="./images/image-header-desktop.jpg"
+              alt=""
+            />
+          </picture>
       </div>
-      <h1>Get <span class="purple-font-color">insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.</p>
-      <dl class="company-stats">
-        <dt>10k+</dt>
-        <dd>companies</dd>
-
-        <dt>314</dt> 
-        <dd>templates</dd>
+      <div class="stats-preview-card_content">
+        <h1>Get <span class="purple-500">insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+        <dl class="company-stats">
+          <div>
+            <dt>10k+</dt>
+            <dd>companies</dd>
+          </div>
+          <div>
+            <dt>314</dt> 
+            <dd>templates</dd>
+          </div>
           
-        <dt>12m+</dt>
-        <dd>queries</dd>
-      </dl>
+          <div>
+            <dt>12m+</dt>
+            <dd>queries</dd>
+          </div>
+        </dl>
+      </div>
     </section>
   </main>
   <footer class="attribution">
