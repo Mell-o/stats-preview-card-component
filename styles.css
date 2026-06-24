@@ -79,21 +79,9 @@ p {
 }
 
 .stats-preview-card_image {
-    position: relative;
     width: 100%;
     border-radius: 0.5em 0.5em 0 0; /* 8px */
     overflow: hidden;
-}
-
-.stats-preview-card_image::after {
-    content: "";
-    position: absolute;
-    background-color: var(--Purple-500);
-    mix-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .stats-preview-card_img {
