@@ -9,6 +9,8 @@
     --White: hsl(0, 0%, 100%);
     --main-paragraph-white: hsla(0, 0%, 100%, 0.75);
     --stat-headings-white: hsla(0, 0%, 100%, 0.6);
+
+    --link-hover: hsl(277, 42%, 39%);
 }
 
 body {
@@ -32,6 +34,7 @@ dd {
     margin: 0;
     font-size: 0.75rem; /* 12px */
     letter-spacing: 0.083em; /* 1px */
+    line-height: 1.20;
 }
 
 dl {
@@ -45,7 +48,7 @@ dt {
     color: var(--White);
     font-weight: 700;
     font-size: 1.5rem; /* 24px */
-    margin: 0 0 0.25em 0; /* 6px */
+    line-height: 2;
 }
 
 .company-stats div:last-child dt {
@@ -57,13 +60,14 @@ h1 {
     font-weight: 700;
     font-size: 1.75rem; /* 28px */
     margin: 0 0 0.286em 0; /* 8px */
+    line-height: 1.25;
 }
 
 
 p {
     font-size: 0.938rem; /* 15px */
     color: var(--main-paragraph-white);
-    line-height: 2;
+    line-height: 1.65;
     margin: 0 0 2.667em 0; /* 40px */
 }
 
@@ -99,11 +103,17 @@ picture {
 }
 
 .attribution {
-    font-size: 0.6875rem;
+    font-size: 0.688rem; /* 11px*/
+    color: var(--White);
+    margin: 1em 0 0 0; /* 16px */
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Purple-500);
+}
+
+.attribution a:hover {
+    color: var(--link-hover);
 }
 
 @media (width >= 768px) {
