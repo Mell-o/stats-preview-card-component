@@ -64,7 +64,7 @@ I would also like to get more practice using mix-blend-mode. I wasn’t able to 
 
 ### AI Collaboration
 
-I used AI to help create some of the class names. I had originally planned to use a <ul> for the company stats, but I wanted to explore whether there was a more semantic option. That led me to using a <dl> description list instead.
+I used AI to help create some of the class names. I had originally planned to use a `<ul>` for the company stats, but I wanted to explore whether there was a more semantic option. That led me to using a `<dl>` description list instead.
 
 ## Author
 
