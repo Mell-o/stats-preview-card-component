@@ -47,9 +47,10 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use the <picture> and <source> elements to serve different image sizes for different device sizes. I also learned how mix-blend-mode can be used to blend separate HTML elements, such as applying a tinted overlay to an image underneath.
+I learned how to use the `<picture>` and `<source>` elements to serve different image sizes for different device sizes. I also learned how `mix-blend-mode` can be used to blend separate HTML elements, such as applying a tinted overlay to an image underneath.
 
-Additionally, I learned about the <dl>, <dt>, and <dd> elements and how they can be used to pair terms with their descriptions or values. In this project, I used them to semantically structure the company’s stats.
+Additionally, I learned about the `<dl>`, `<dt>`, and `<dd>` elements and how they can be used to pair terms with their descriptions or values. In this project, I used them to semantically structure the company’s stats.
+
 
 ### Continued development
 
