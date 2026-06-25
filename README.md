@@ -16,8 +16,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -55,7 +53,9 @@ Additionally, I learned about the <dl>, <dt>, and <dd> elements and how they can
 
 ### Continued development
 
-I would like to get more practice using mix-blend-mode. I wasn’t able to get the header image to perfectly match the color shown in the Figma file, so I ultimately worked around it by downloading the three header image versions directly from the design file and using those instead.
+In this project, although I had access to the Figma file, I tried eyeballing the design elements first before checking the Figma specs for the correct spacing, line height, and font sizes. I think I did pretty well, but I want to continue practicing and improving my eye for detail.
+
+I would also like to get more practice using mix-blend-mode. I wasn’t able to get the header image to perfectly match the color shown in the Figma file, so I ultimately worked around it by downloading the three header image versions directly from the design file and using those instead.
 
 ### Useful resources
 
