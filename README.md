@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-flexbox-cthPu4L8mE)
 - [Live Site](https://stats-preview-card-mellow.netlify.app/)
 
 ## My process
